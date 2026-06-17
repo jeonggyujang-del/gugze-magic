@@ -1,0 +1,2 @@
+-keep class com.gugze.magic.** { *; }
+-keepclassmembers class com.gugze.magic.** { *; }
