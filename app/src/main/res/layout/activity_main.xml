@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,6 +12,30 @@
         android:textSize="28sp"
         android:textStyle="bold"
         android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch Face 선택"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/text_selected_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택된 Watch Face: #1"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="12dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar_face_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="0"
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/btn_start"
@@ -32,6 +55,6 @@
         android:id="@+id/btn_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Watch Face 컨트롤 시작" />
+        android:text="Watch Face 적용 시작" />
 
 </LinearLayout>
