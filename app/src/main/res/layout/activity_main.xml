@@ -3,58 +3,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp"
+    android:gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textSize="28sp"
+        android:textSize="32sp"
         android:textStyle="bold"
-        android:layout_marginBottom="32dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Watch Face 선택"
-        android:textSize="16sp"
-        android:layout_marginBottom="8dp" />
-
-    <TextView
-        android:id="@+id/text_selected_face"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="선택된 Watch Face: #1"
-        android:textSize="14sp"
-        android:textColor="#666666"
-        android:layout_marginBottom="12dp" />
-
-    <SeekBar
-        android:id="@+id/seekbar_face_selector"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="10"
-        android:progress="0"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="48dp"
+        android:textColor="#6200EE" />
 
     <Button
         android:id="@+id/btn_start"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="접근성 서비스 활성화"
-        android:layout_marginBottom="12dp" />
-
-    <Button
-        android:id="@+id/btn_launch_wearable"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Wearable 앱 실행"
-        android:layout_marginBottom="12dp" />
+        android:layout_height="56dp"
+        android:text="1. 접근성 서비스 활성화"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btn_control"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Watch Face 적용 시작" />
+        android:layout_height="56dp"
+        android:text="2. Wearable 앱 실행"
+        android:textSize="16sp" />
 
 </LinearLayout>
